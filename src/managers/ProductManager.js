@@ -36,6 +36,17 @@ class ProductManager {
 
     return newProduct;
   }
+
+  async deleteProduct(id) {
+    const products = await this.getProducts();
+
+    const filteredProducts = products.filter((p) => p.id !== parseInt(id));
+
+    await fs.promises.writeFile(
+      this.path,
+      JSON.stringify(filteredProducts, null, 2),
+    );
+  }
 }
 
 module.exports = ProductManager;

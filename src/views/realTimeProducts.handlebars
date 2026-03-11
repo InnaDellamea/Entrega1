@@ -1,0 +1,21 @@
+<div class="container">
+
+  <h1>🛒 Gamer Store</h1>
+
+  <div class="form-container">
+
+    <form id="productForm">
+      <input name="title" placeholder="Producto" required />
+      <input name="price" placeholder="Precio" required />
+      <input name="thumbnail" placeholder="URL Imagen" />
+      <button type="submit">Agregar</button>
+    </form>
+
+  </div>
+
+  <div id="productList" class="products-grid"></div>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/realtime.js"></script>

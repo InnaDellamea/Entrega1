@@ -1,27 +1,47 @@
 [
   {
     "id": 1,
-    "title": "Producto 1",
-    "description": "Test",
-    "code": "ABC123",
-    "price": 100,
+    "title": "Mouse Logitech G203",
+    "description": "Mouse gamer RGB Lightsync con sensor de alta precisión ideal para gaming competitivo.",
+    "price": 350,
+    "code": "MOUSE-G203",
+    "stock": 15,
+    "category": "perifericos",
     "status": true,
-    "stock": 10,
-    "category": "General",
-    "thumbnails": []
+    "thumbnail": "https://www.mink.com.ar/qloud/ryr/fotos/21598-1.jpg"
   },
   {
-    "id": 2
+    "id": 2,
+    "title": "Auriculares HyperX Cloud",
+    "description": "Auriculares gamer con sonido envolvente, micrófono desmontable y gran comodidad para largas sesiones.",
+    "price": 500,
+    "code": "HEADSET-HX",
+    "stock": 10,
+    "category": "audio",
+    "status": true,
+    "thumbnail": "https://www.mink.com.ar/qloud/ryr/fotos/24819-0.jpg"
   },
   {
     "id": 3,
-    "title": "Producto nuevo",
-    "description": "Test",
-    "code": "ABC123",
-    "price": 100,
+    "title": "Webcam Logitech C920",
+    "description": "Webcam Full HD 1080p ideal para streaming, videollamadas y creación de contenido.",
+    "price": 450,
+    "code": "WEBCAM-C920",
+    "stock": 8,
+    "category": "streaming",
     "status": true,
-    "stock": 5,
-    "category": "General",
-    "thumbnails": []
+    "thumbnail": "https://www.mipcparquecentral.com/cdn/shop/files/Camara_Logitech_C920s_Pro_HD_Webcam-1.jpg?v=1746120640"
+  },
+
+  {
+    "id": 5,
+    "title": "Micrófono HyperX SoloCast",
+    "description": "Micrófono USB para streaming con grabación de alta calidad y función tap-to-mute.",
+    "price": 600,
+    "code": "MIC-SOLOCAST",
+    "stock": 6,
+    "category": "streaming",
+    "status": true,
+    "thumbnail": "https://row.hyperx.com/cdn/shop/products/hyperx_solocast_01_main.jpg"
   }
 ]
